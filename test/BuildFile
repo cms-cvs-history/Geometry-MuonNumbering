@@ -2,6 +2,6 @@
 <use name=Geometry/Records>
 <use name=Geometry/MuonNumbering>
 <use name=DetectorDescription/Core>
-<flags SEAL_PLUGIN_NAME="testGeometryMuonNumbering">
+<flags EDM_PLUGIN=1>
 <library file=MuonNumberingTester.cc name=testGeometryMuonNumbering>
 </library>
